@@ -9,16 +9,15 @@ What you will get are:
 4. Course base price.
 5. Currency symbol.
 6. Course rating.
-7. Course rating.
-8. Course reviews.
-9. How much students taking the course.
-10. Total lectures in the course.
-11. Total time of the course.
-12. The published date of the course.
-13. The last update date
-14. The course level
-15. The course category
-16. The course label.
+7. Course reviews.
+8. How much students taking the course.
+9. Total lectures in the course.
+10. Total time of the course.
+11. The published date of the course.
+12. The last update date
+13. The course level
+14. The course category
+15. The course label.
 
 # Example 
 By using ISO 3166-1 alpha-2 code, you can change the price to be in your own country currency (or other countries currency, if you curious).
