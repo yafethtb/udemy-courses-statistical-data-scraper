@@ -22,6 +22,8 @@ What you will get are:
 # Example 
 By using ISO 3166-1 alpha-2 code, you can change the price to be in your own country currency (or other countries currency, if you curious).
 ```python
+# You can see the subcategories from Udemy. 
+
 etl_process(subcategory = 'PR', country = 'us', start = 1, stop = 3)
 ```
 The code will return a JSON file consist of all data above from page 1 to 3 of subcategory PR in Udemy with price in USD.
