@@ -4,7 +4,15 @@ from udemy_scraper import course_scraper
 
 
 def etl_process(subcategory: str, country: str, start: int, stop: int): 
-    """ETL Process."""
+    """ETL Process.
+    
+    Parameters:
+    ---
+    - Subcategory: a subcategory from udemy course. Check the list from udemy.com.
+    - country: an ISO 3166-1 alpha-2 code of target country. The price and currency data will based on the target country.
+    - start: the first page to be scraped.
+    - stop: the last page to be scraped.
+    """
     print(">>>ETL Process start.")
     data = course_scraper(sub = subcategory, country = country, start = start, stop = stop)
     dict_data = dict()
