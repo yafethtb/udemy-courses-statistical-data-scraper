@@ -38,7 +38,16 @@ PARAMS = {
 
 
 def course_scraper(sub: str, country:str, start:int = 1, stop:int = 625): 
-    """Scraping data from Udemy.com"""
+    """
+    A function to scrape data from Udemy.com.
+    
+    Parameters:
+    * sub: the subcategory name. E.g.: web development. Refer to udemy.com to see more subcategory names.
+    * country: an ISO 3166-1 alpha-2 code of target country. The price and currency data will based on the target country.
+    * start: the page number where the scraper start scraping. Default minimum number is 1.
+    * stop: the page number where the scraper end scraping. Default maximum number is 625 pages.
+    
+    """
     ids = SUBCATEGORY[sub]
     scraped_data = []
     # Accessing Udemy
